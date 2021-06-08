@@ -30,7 +30,7 @@ var CaptureVideoOptions = function () {
     // Video quality parameter, 0 means low quality, suitable for MMS messages, and value 1 means high quality.
     this.quality = 1;
     // Pick camera direction. Accepted values are 1 (for front camera) and 0 (for back camera).
-    this.cameraDirection = 0;
+    this.cameraDirection = 1;
 };
 
 module.exports = CaptureVideoOptions;
