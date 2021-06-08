@@ -155,6 +155,8 @@ interface VideoOptions {
     limit?: number;
     /** The maximum duration of a video clip, in seconds. */
     duration?: number;
+    /** Pick camera direction. Accepted values are 1 (for front camera) and 0 (for back camera). */
+    cameraDirection?: number;
 }
 
 /** Encapsulates a set of media capture parameters that a device supports. */
